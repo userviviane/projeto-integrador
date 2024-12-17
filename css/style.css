@@ -1,0 +1,137 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ebedf0;
+  color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: bold;
+  color: #333;
+}
+
+p {
+  margin: 0;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* ================== Navbar ================== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #007bff;
+  padding: 10px 50px; /* Aumenta o espaçamento horizontal do menu */
+  color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-weight: bold #111010; /* Deixa o texto do logo em negrito */
+  font-size: 20px;
+  color: #fff !important;
+  text-align: center;
+}
+
+.navbar-nav {
+  margin-left: auto; /* Recuar menu para direita */
+}
+
+.navbar-nav .nav-link {
+  font-weight: bold; /* Negrito */
+  font-size: 20px;   /* Tamanho da fonte */
+  color: #333 !important; /* Cor visível */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #fff !important; /* Branco ao passar o mouse */
+  text-decoration: underline; /* Sublinhado ao passar o mouse */
+}
+
+/* Centraliza texto da Navbar */
+.navbar-collapse {
+  display: flex;
+  justify-content: center; /* Centraliza os itens */
+}
+
+
+
+/* ================== Buttons ================== */
+.button, .btn-back {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover, .btn-back:hover {
+  background-color: #0056b3;
+}
+
+/* ================== Footer ================== */
+.footer {
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+}
+
+.footer a {
+  color: #fff;
+  margin: 0 5px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+/* ================== Carousel ================== */
+.carousel img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* ================== Forms ================== */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+form input, form select, form textarea {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form input:focus, form select:focus, form textarea:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 4px rgba(0, 123, 255, 0.5);
+  outline: none;
+}
+
+/* ================== Utility Classes ================== */
+.text-center {
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}

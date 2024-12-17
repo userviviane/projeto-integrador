@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Clínica - Baby Connect</title>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a<a class="navbar-brand" href="./index.html">
+                <img src="images/logo.png" alt="Baby Connect Logo" style="height: 40px;">
+            </a>            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="clinicas.html">Clínicas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="medicos.html">Médicos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="agendamentos.html">Agendamentos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container my-5">
+        <form id="formCadastroMedico" class="p-4 bg-light rounded shadow-sm">
+            <div class="mb-3">
+                <label for="nome" class="form-label">Nome da clinica:</label>
+                <input type="text" id="nome" name="nome" class="form-control" required>
+            </div>
+            <div class="mb-3">
+                <label for="crm" class="form-label">Cnpj:</label>
+                <input type="text" id="crm" name="crm" class="form-control" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">E-mail:</label>
+                <input type="email" id="email" name="email" class="form-control" required>
+            </div>
+            <div class="mb-3">
+                <label for="telefone" class="form-label">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" class="form-control" required>
+            </div>
+            
+            <button type="submit" class="btn btn-primary w-100">Cadastrar Clinica</button>
+        </form>
+    </section>
+
+    
+    <footer class="bg-light text-center py-4">
+        <div class="container">
+            <p>&copy; 2024 Baby Connect - Todos os direitos reservados A&V</p>
+            <p>
+                <a href="https://facebook.com" target="_blank">Facebook</a> |
+                <a href="https://instagram.com" target="_blank">Instagram</a> |
+                <a href="https://twitter.com" target="_blank">Twitter</a>
+            </p>
+        </div>
+    </footer>
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+    <script src="../js/scripts.js"></script>
+</body>
+
+</html>
